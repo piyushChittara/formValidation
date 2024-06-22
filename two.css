@@ -1,0 +1,58 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 40px; */
+  align-items: center;
+  margin-top: 50px;
+}
+
+#username {
+  width: 500px;
+  padding: 12px;
+}
+
+#password {
+  width: 500px;
+  padding: 12px;
+}
+
+#confirmpassword {
+  width: 500px;
+  padding: 12px;
+}
+
+#btn {
+  width: 530px;
+  padding: 12px;
+  background: rgb(51, 212, 19);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+#btn:hover {
+  background-color: rgb(209, 223, 11);
+}
+
+#div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.h1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+  display: block;
+}
